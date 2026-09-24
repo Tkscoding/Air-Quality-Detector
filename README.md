@@ -2,7 +2,7 @@
 # Beijing PM2.5 Prediction with Machine Learning
 
 ## Project Overview
-This project uses **Random Forest Regression** to predict PM2.5 concentration based on multi-site air quality and meteorological data from Beijing.  
+This project uses **Random Forest Regression** to predict PM2.5 concentration based on multi-site air quality and meteorological data from Beijing.
 
 It aligns with **SDG 11 (Sustainable Cities and Communities)** and **SDG 3 (Good Health and Well-being)**.
 
@@ -16,6 +16,13 @@ It aligns with **SDG 11 (Sustainable Cities and Communities)** and **SDG 3 (Good
   - PM10, SO2, NO2, CO, O3
   - TEMP, PRES, DEWP, RAIN, WSPM
   - year, month, day, hour
+
+**Feature Descriptions:**
+- **PM10** – Particulate Matter (≤10 μm), mainly from dust and combustion
+- **SO2** – Sulfur Dioxide, from coal burning and industrial emissions
+- **NO2** – Nitrogen Dioxide, mainly from vehicle exhaust
+- **CO** – Carbon Monoxide, indicator of incomplete combustion
+- **O3** – Ozone, secondary pollutant formed by photochemical reactions
 
 ### Data Cleaning Steps
 1. Removed rows where `PM2.5` was missing
